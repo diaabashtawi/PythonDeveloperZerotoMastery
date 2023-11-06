@@ -54,6 +54,18 @@ age = '31'
 
 print(f'Welcome {name}. You are {age} years old')
 
+print('Welcome {}. You are {} years old'.format('Deya Bakheet', '31'))
+print('Welcome {}. You are {} years old'.format(name, age))
+
+selfish = '01234567'
+print(selfish[3])
+# in python when you add -1 it will start from the back of the string
+print(selfish[-1])
+print(selfish[:5])
+print(selfish[0:8:2])
+print(selfish[::-1])
+
+
 
 print("------------------------------------------")
 # Palindrome check
