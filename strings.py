@@ -42,6 +42,19 @@ name2 = "Bakheet"
 
 print(f"Welcome there {name1} and {name2}")
 print("Hello there {} and {}".format(name1, name2))
+long_string = '''
+WOW
+O O
+---
+'''
+print(long_string)
+
+name = 'Deya Bakheet'
+age = '31'
+
+print(f'Welcome {name}. You are {age} years old')
+
+
 print("------------------------------------------")
 # Palindrome check
 word = "reviver"
